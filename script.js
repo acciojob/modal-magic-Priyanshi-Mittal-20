@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let btn=document.querySelector("#openModal")
-let removeBtn=document.querySelector(".remove-btn")
+let removeBtn=document.querySelector(".close-modal")
 let modalEle=document.querySelector(".modal")
 btn.addEventListener("click",show)
 removeBtn.addEventListener("click",hide)
